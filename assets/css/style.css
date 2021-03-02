@@ -1,0 +1,121 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,600&display=swap');
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+bodya{
+    font-family: 'Nunito', sans-serif;
+}
+
+.section-break {
+	padding: 150px 0px;
+	background-color: rgb(0, 191, 255);
+	opacity: .2 !important;
+	margin: 50px;
+	border-radius: 20px;
+}
+
+/* Card One CSS  */
+.card-one-box {
+	background: #F3F5FB;
+	border-radius: 10px;
+	padding: 100px 100px;
+}
+
+.card-one-title {
+	background: linear-gradient(to top left,  #8182EF 0% , #8F6DD5 100%);
+	padding: 80px;
+	text-align: center;
+	color: #fff !important;
+	border-radius: 15px;
+	padding-top: 60px;
+	padding-bottom: 130px;
+}
+.card-one-title h6 {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.card-one-title p {
+	text-transform: capitalize;
+}
+
+
+
+.card-one-content {
+	background: #fff;
+	text-align: center;
+	border-radius: 15px;
+	margin: 40px;
+	margin-top: -110px;
+	padding: 30px;
+}
+.card-one-content img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 11px;
+}
+.card-one-content h6 {
+	color: #000;
+	margin: 10px;
+}
+ 
+.card-one-content i {
+	display: block;
+	color: #8DDA3D;
+	border: 1px solid #6789E4;
+	border-radius: 10px;
+	width: 30%;
+	text-align: center !important;
+	justify-content: center;
+	margin: 10px auto;
+	padding: 5px;
+}
+.button-one {
+	background: linear-gradient(to top left, #8182EF 0% , #8F6DD5 100%);
+	border: 0;
+	padding: 10px 20px;
+	color: #fff;
+	border-radius: 7px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.card-one-content i span {
+	color: #6789E4 !important;
+}
