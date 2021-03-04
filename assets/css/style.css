@@ -17,6 +17,7 @@ Primary use:    Project Type
 -------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap');
 
 /*
 ==========================================
@@ -118,4 +119,98 @@ bodya{
 }
 .card-one-content i span {
 	color: #6789E4 !important;
+}
+
+
+/* Card CSS Tow  */
+
+
+
+
+.card-tow-section-box h6 a i {
+	font-size: 18px;
+	position: absolute;
+	top: 15px;
+	right: 30px;
+	color: #fff;
+}
+.card-tow-section-box {
+	width: 100%;
+	height: auto;
+	padding: 60px 30px 45px 30px;
+	color: #ffffff;
+	background: linear-gradient(90deg, #F073C8 0%, #FF6A95 99%);
+	border-radius: 15px 15px 0 0;
+	text-align: center;
+	position: relative;
+}
+.card-tow-section-input {
+	padding: 30px 30px 40px;
+	width: 100%;
+	border-radius: 0 0 15px 15px;
+	background-color: #fff;
+}
+.card-tow-section-input button {
+	background: linear-gradient(90deg, #F073C8 0%, #FF6A95 99%);
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 11px 15px;
+	font-weight: bold;
+	width: 100%;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	text-align: center;
+	color: #ffffff;
+	box-shadow: 0 12px 12px -11px rgba(240,115,200,0.73);
+	background-size: 200% auto;
+}
+.card-tow-section-input button:hover {
+	background-position: right center;
+	box-shadow: 0 12px 20px -11px rgba(255,106,149,0.72);
+}
+.card-tow-input {
+	border: 1px solid #EBEBF2;
+	border-radius: 5px;
+	padding: 11px 15px;
+	background-color: #ffffff;
+	transition: 0.3s border ease-in-out;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.card-tow-input:hover, .card-tow-input:focus {
+	border: 1px solid #F775C1;
+}
+.form-control:focus {
+	box-shadow: none;
+}
+.sub-leater {
+	margin: 35px auto 30px;
+	font-size: 14px;
+	color: #7D7A9E;
+	text-align: center;
+	font-family: 'Mulish', sans-serif;
+}
+.box-top-title {
+	font-size: 12px;
+	margin-bottom: 20px;
+	font-family: 'Mulish', sans-serif;
+}
+.card-towpbox-title {
+	font-weight: bold;
+	font-family: 'Mulish', sans-serif;
+	font-size: 23px;
+	text-align: center;
+}
+.social-btn-apir a i {
+	padding: 0px 30px;
+	font-size: 33px;
+	color: #f76fb1;
+}
+.social-btn-apir a i:hover{
+	color: linear-gradient(90deg, #F073C8 0%, #FF6A95 99%);
+}
+
+.card-tow {
+	background: #F3F5FB;
+	padding: 150px;
 }
