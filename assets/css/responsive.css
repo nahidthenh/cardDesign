@@ -4,18 +4,123 @@
 }
 /* Tablet-Device 768px  */
 @media only screen and (width: 768px){
-	
+	.section-break {
+        padding: 30px 0px;
+        margin: 25px;
+        border-radius: 10px;
+    }
+    .card-one-title {
+        border-radius: 10px;
+        padding-top: 60px;
+        padding-bottom: 130px;
+        margin: -80px;
+    }
+    .card-one-title p {
+        text-transform: capitalize;
+        margin: -54px;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+    .card-one-content {
+        border-radius: 10px;
+        margin: -60px;
+        margin-top: -110px;
+        padding: 30px;
+    }
+    .button-one {
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .card-one-content i {
+        width: 35%;
+        margin-top: 19px !important;
+        margin-bottom: 8px;
+        font-size: 13px;
+    }
 }
 /* Mobile Device 320px */
 @media only screen and (width: 320px){
 	
 }
 /* Mobile M 375px Device */
-@media only screen and (width: 375px){
-	
+@media only screen and (max-width: 375px){
+	.section-break {
+        padding: 30px 0px;
+        margin: 25px;
+        border-radius: 10px;
+    }
+    .card-one-title {
+        border-radius: 10px;
+        padding-top: 60px;
+        padding-bottom: 130px;
+        margin: -80px;
+    }
+    .card-one-title p {
+        text-transform: capitalize;
+        margin: -54px;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+    .card-one-content {
+        border-radius: 10px;
+        margin: -60px;
+        margin-top: -110px;
+        padding: 30px;
+    }
+    .button-one {
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .card-one-content i {
+        width: 60%;
+        margin-top: 19px !important;
+        margin-bottom: 8px;
+        font-size: 13px;
+    }
 }
 /* Mobile L 425px Device */
 @media only screen and (width: 425px){
-	
+	.section-break {
+        padding: 30px 0px;
+        margin: 25px;
+        border-radius: 10px;
+    }
+    .card-one-title {
+        border-radius: 10px;
+        padding-top: 60px;
+        padding-bottom: 130px;
+        margin: -80px;
+    }
+    .card-one-title p {
+        text-transform: capitalize;
+        margin: -54px;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+    .card-one-content {
+        border-radius: 10px;
+        margin: -60px;
+        margin-top: -110px;
+        padding: 30px;
+    }
+    .button-one {
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .card-one-content i {
+        width: 60%;
+        margin-top: 19px !important;
+        margin-bottom: 8px;
+        font-size: 13px;
+    }
 }
 
