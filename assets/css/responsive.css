@@ -120,7 +120,7 @@
     }
 }
 /* Mobile L 425px Device */
-@media only screen and (width: 425px){
+@media only screen and (max-width: 425px){
 	.section-break {
         padding: 30px 0px;
         margin: 25px;
